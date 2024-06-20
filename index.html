@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+    <main>
+        <div class="choices">
+            <div class="choice" id="rock">
+                <image src="rock.png"></image>
+            </div>
+            <div class="choice" id="paper">
+                <image src="paper.png"></image>
+            </div>
+            <div class="choice" id="scissors">
+                <image src="scissors.png"></image>
+            </div>
+        </div>
+        <div class="computerchoise hide">
+            <div class="cho hide1">
+                <image src="rock.png"></image>            
+            </div>
+            <div class="cho hide2">
+                <image src="paper.png"></image>
+            </div>
+            <div class="cho hide3"> 
+                <image src="scissors.png"></image>
+            </div>
+            <div class="c">
+                <p id="co">computer choise</p>
+            </div>
+        </div>
+        <div class="score-board">
+            <div class="score">
+                <p id="userscore">0</p>
+                <p>your score</p>
+            </div>
+            <div class="score">
+                <p id="computerscore">0</p>
+                <p>computer score</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="msg-conteiner">
+            <p id="msg">Play your move</p>
+        </div>
+    </footer>
+
+
+</body>
+<script src="app.js"></script>
+
+</html>
